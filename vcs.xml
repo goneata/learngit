@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/goneata/learngit.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/goneata/LG.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\George\IdeaProjects" />
