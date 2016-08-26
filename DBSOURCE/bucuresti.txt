@@ -1,2 +1,2 @@
 1-local
-2-local
+2-web
