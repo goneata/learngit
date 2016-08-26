@@ -1,3 +1,5 @@
+
+
 /*
        Copyright 2009 Carsten Czarski
 
@@ -791,9 +793,9 @@ create or replace package body mail_client as
         -- For the Sun POP3 implementation Folder.expunge is not supported...
         -- Deshalb eigene Emulation als:
         expunge_folder_pop3;
-        -- Erneuetes Öffnen der inbox nötig,
+        -- Erneuetes Ã–ffnen der inbox nÃ¶tig,
         -- weil diese durch expunge_folder_pop3 geschlossen wurde. (Siehe auch dort)
-        -- Dadurch wird für den Aufrufer ein Verhalten emuliert wie beim imap-Protokoll
+        -- Dadurch wird fÃ¼r den Aufrufer ein Verhalten emuliert wie beim imap-Protokoll
         open_folder(g_current_folder);
      END IF;
   END expunge_folder;
